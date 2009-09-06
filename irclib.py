@@ -57,7 +57,3 @@ class irc:
 			self.server_send('JOIN '+ chan + " \n")
 
 
-
-myirc = irc("irc.data.bg",6667, "mypybot")
-myirc.connect()
-
