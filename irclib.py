@@ -3,7 +3,7 @@ import socket
 class irc:
 	def __init__(self, host, port, nickname, ident="pyB", realname="pyB", autojoinchans="#night_bar,#sliven,#hades"):
 		self.host = host
-		self.port = port
+		self.port = int(port)
 		self.ident = ident
 		self.nickname = nickname
 		self.realname = realname
